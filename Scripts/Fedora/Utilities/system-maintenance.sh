@@ -26,6 +26,7 @@ log_message() {
 
 # Function to check for network connectivity before proceeding
 check_network() {
+    echo "Checking network connectivity..."
     ping -c 3 google.com > /dev/null 2>&1
     if [ $? -ne 0 ]; then
         log_message "ERROR: No network connectivity. Exiting script."
@@ -105,7 +106,7 @@ rotate_logs() {
     fi
 }
 
-# Run all functions in order
+# Run all functions in order with status updates
 log_message "---- Starting Fedora System Maintenance ----"
 check_network
 check_system_health
