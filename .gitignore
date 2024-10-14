@@ -1,0 +1,69 @@
+# Logs
+*.log
+Logs/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+*.env
+.venv/
+env/
+venv/
+ENV/
+ENV.bak/
+
+# VirtualBox and VM-related files
+*.vbox
+*.vbox-prev
+*.vmdk
+*.ova
+*.ovf
+
+# Ignore any DS_Store files (for macOS users)
+.DS_Store
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# MySQL dumps and databases
+*.sql
+*.sql.gz
+*.db
+
+# System files
+Thumbs.db
+Desktop.ini
+
+# Python virtual environments and package managers
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore installer scripts that generate log files
+setup-vm.log
+install-apache.log
+install-mysql.log
+install-php.log
+
+# Temporary files created during development
+*.tmp
+*.log.*
+
+# IDE files (optional based on your editor)
+.vscode/
+.idea/
+*.code-workspace
+
+# Node-related files (if Node.js is involved in web interfaces)
+node_modules/
+
+# Ignore binary files or executables
+*.exe
+*.out
+*.o
