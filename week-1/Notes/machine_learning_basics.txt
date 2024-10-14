@@ -1,0 +1,54 @@
+# Machine Learning Basics
+
+## 1. Overview of Machine Learning
+- **Definition**: Machine learning is a subset of artificial intelligence that enables systems to learn from data, identify patterns, and make decisions with minimal human intervention.
+- **Significance**: As data volumes grow, machine learning plays a crucial role in automating processes and deriving insights across various industries, enhancing decision-making capabilities.
+
+## 2. Supervised vs. Unsupervised Learning
+### A. Supervised Learning
+- **Definition**: A type of machine learning where the model is trained on labeled data, meaning that the input data is paired with the correct output.
+- **Process**:
+  - The model learns to map inputs to outputs based on the training data.
+  - Once trained, the model can predict outputs for new, unseen data.
+- **Common Algorithms**:
+  - Decision Trees: A flowchart-like structure used for classification and regression tasks.
+  - Support Vector Machines (SVM): Finds the optimal hyperplane for separating classes in the feature space.
+  - Neural Networks: Mimics the human brain to classify and predict data based on learned patterns.
+- **Applications**:
+  - Spam detection in emails: Classifying emails as spam or not spam.
+  - Credit scoring: Predicting the likelihood of loan default based on applicant data.
+
+### B. Unsupervised Learning
+- **Definition**: A type of machine learning that deals with unlabelled data, where the model attempts to learn the underlying structure of the data without explicit output labels.
+- **Process**:
+  - The model identifies patterns and groupings in the data.
+- **Common Algorithms**:
+  - K-Means Clustering: Partitions data into K distinct clusters based on feature similarity.
+  - Hierarchical Clustering: Creates a dendrogram or tree-like structure representing nested groupings.
+  - Principal Component Analysis (PCA): Reduces dimensionality of the data while preserving variance.
+- **Applications**:
+  - Customer segmentation: Grouping customers based on purchasing behavior.
+  - Anomaly detection: Identifying unusual patterns that do not conform to expected behavior.
+
+## 3. Introduction to Common Algorithms
+### A. Decision Trees
+- **Description**: A model that uses a tree-like graph of decisions and their possible consequences. It is intuitive and easy to interpret.
+- **Usage**: Ideal for both classification and regression tasks, commonly used in business decision-making processes.
+- **References**: 
+  - Breiman, L., et al. (1986). "Classification and Regression Trees". Wadsworth.
+  - Quinlan, J. R. (1993). "C4.5: Programs for Machine Learning". Morgan Kaufmann.
+
+### B. K-Nearest Neighbors (KNN)
+- **Description**: A simple, instance-based learning algorithm that classifies data points based on the 'K' closest training examples in the feature space.
+- **Usage**: Effective for classification tasks and can also be adapted for regression.
+- **References**: 
+  - Cover, T. & Hart, P. (1967). "Nearest Neighbor Pattern Classification". IEEE Transactions on Information Theory.
+  - Altman, N. (1992). "An Introduction to Kernel and Nearest-Neighbor Nonparametric Regression". The American Statistician.
+
+## 4. Conclusion
+- Understanding the distinctions between supervised and unsupervised learning is fundamental for applying machine learning techniques effectively.
+- Familiarity with common algorithms, such as decision trees and KNN, equips practitioners with tools to tackle a variety of data-driven problems.
+
+## References
+[1] Hastie, T., Tibshirani, R., & Friedman, J. (2009). "The Elements of Statistical Learning". Springer.  
+[2] Murphy, K. P. (2012). "Machine Learning: A Probabilistic Perspective". MIT Press.

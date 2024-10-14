@@ -1,0 +1,141 @@
+Task I: Research and Readings
+----------------------------------------------
+1. Assigned Readings:
+   - Introduction to Data Science:
+     - Overview of data science and its significance in contemporary industries.
+     - Key components: data acquisition, cleaning, analysis, and visualization.
+   - Data Mining Techniques:
+     - Study various data mining methods, such as clustering, classification, and regression.
+     - Focus on practical applications and use cases in different sectors.
+   - Machine Learning Basics:
+     - Understand supervised vs. unsupervised learning.
+     - Introduction to algorithms commonly used in data science (e.g., decision trees, k-nearest neighbors).
+
+2. Contemporary Applications:
+   - Explore how data science is utilized in various fields:
+     - **Healthcare**:
+       - Analyze case studies on predictive analytics for patient outcomes and resource allocation.
+     - **Finance**:
+       - Examine the role of data science in fraud detection and algorithmic trading.
+     - **Retail**:
+       - Investigate customer segmentation strategies and personalized marketing through data insights.
+
+3. Case Studies:
+   - Review successful data science implementations:
+     - Netflix: Investigate their recommendation system based on user behavior and viewing history.
+     - Amazon: Study their use of data analytics for supply chain optimization and inventory management.
+     - Airbnb: Analyze how data-driven insights shape pricing strategies and market demand forecasting.
+
+Task II: Data Manipulation and Visualization
+----------------------------------------------
+1. Load the Datasets:
+   - Utilize Pandas to load datasets (`employee_data.csv`, `ocean_conditions_data.csv`, `retail_sales_data.csv`).
+   - Ensure proper handling of data types and formats.
+
+2. Data Exploration:
+   - Conduct preliminary data exploration:
+     - Display the first five rows of each dataset to understand its structure.
+     - Summarize data types and non-null counts using `df.info()`.
+     - Calculate basic statistics with `df.describe()`.
+
+3. Check for Missing Values:
+   - Identify columns with missing values and their implications for analysis:
+     - Use `df.isnull().sum()` to quantify missing data.
+     - Discuss potential methods for handling missing data (imputation vs. removal).
+
+4. Data Visualization:
+   - Visualize distributions and relationships within the data:
+     - Create histograms to show distributions (e.g., Salary distribution in employee data).
+     - Generate scatter plots to explore relationships (e.g., Salary vs. Age).
+     - Create bar plots to compare categories (e.g., Total sales by product category).
+
+5. Correlation Analysis:
+   - Compute and visualize the correlation matrix:
+     - Use `df.corr()` to analyze relationships between numeric features.
+     - Visualize the correlation heatmap to identify strong correlations.
+
+Task III: Python Programming Exercises
+----------------------------------------------
+1. Data Manipulation Exercises:
+   - **Filter Datasets**:
+     - Objective: Learn to extract specific subsets of data based on conditions.
+     - Actions:
+       - Use Pandas to filter employees based on specific criteria, such as department, salary range, or age.
+       - Example Code:
+         ```python
+         engineering_employees = df[df['Department'] == 'Engineering']
+         high_salary_employees = df[df['Salary'] > 80000]
+         ```
+       - Discuss the implications of filtering data and its impact on analysis.
+
+   - **Group and Aggregate Data**:
+     - Objective: Understand how to summarize data effectively.
+     - Actions:
+       - Utilize the `groupby()` function to aggregate data, such as calculating average salary by department or total sales by product category.
+       - Example Code:
+         ```python
+         avg_salary_by_department = df.groupby('Department')['Salary'].mean().reset_index()
+         total_sales_by_category = df.groupby('Product_Category')['Total_Sales'].sum().reset_index()
+         ```
+       - Analyze the results and consider how aggregating data provides insights into organizational structures or sales performance.
+
+   - **Create New Calculated Columns**:
+     - Objective: Enhance datasets by adding new, meaningful columns derived from existing data.
+     - Actions:
+       - Create new columns that represent calculations, such as total sales from quantity sold and sale price, or profit margins.
+       - Example Code:
+         ```python
+         df['Total_Sales'] = df['Quantity_Sold'] * df['Sale_Price']
+         df['Profit_Margin'] = (df['Sale_Price'] - df['Cost_Price']) / df['Sale_Price']
+         ```
+       - Discuss how calculated columns can enhance analysis and provide deeper insights into the data.
+
+2. Exploratory Data Analysis (EDA):
+   - **Conduct EDA to Identify Patterns, Trends, and Anomalies**:
+     - Objective: Explore datasets to gain insights and understand underlying trends.
+     - Actions:
+       - Generate descriptive statistics to summarize the central tendency, dispersion, and shape of the dataset’s distribution.
+       - Use visualizations to identify patterns (e.g., scatter plots, histograms, box plots).
+       - Example Code:
+         ```python
+         print(df.describe())
+         plt.boxplot(df['Salary'])
+         plt.title('Box Plot of Employee Salaries')
+         plt.show()
+         ```
+       - Reflect on any anomalies or outliers and their potential impact on the analysis.
+
+   - **Formulate Hypotheses for Further Testing**:
+     - Objective: Develop analytical thinking by forming hypotheses based on the findings.
+     - Actions:
+       - Based on initial analysis and visualizations, formulate hypotheses (e.g., "Employees in the Engineering department earn more than those in Marketing").
+       - Design follow-up analyses to test these hypotheses, utilizing statistical methods or further visualizations.
+       - Example Hypothesis Testing:
+         ```python
+         # Compare mean salaries using a t-test
+         from scipy import stats
+         engineering_salaries = df[df['Department'] == 'Engineering']['Salary']
+         marketing_salaries = df[df['Department'] == 'Marketing']['Salary']
+         t_stat, p_value = stats.ttest_ind(engineering_salaries, marketing_salaries)
+         print(f"T-statistic: {t_stat}, P-value: {p_value}")
+         ```
+       - Discuss the importance of hypothesis testing in data science and how it can validate insights gained from EDA.
+
+Task IV: Documentation
+----------------------------------------------
+1. Document Findings:
+   - Maintain a detailed log of tasks performed, including:
+     - Descriptions of data loading and analysis steps.
+     - Key insights and visualizations created during the analysis.
+
+2. Reflective Analysis:
+   - Write a reflective piece (2-3 pages) discussing:
+     - Key learnings about data science methodologies and practices.
+     - Challenges faced in data manipulation and how they were overcome.
+     - Potential improvements or next steps in analyzing the datasets.
+
+3. Feedback for Future Learning:
+   - Identify personal areas for growth based on the week’s experiences:
+     - Specify topics that require additional practice or further study.
+     - Consider how this week’s insights can shape future projects and research directions.
+
