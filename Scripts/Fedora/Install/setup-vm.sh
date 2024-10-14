@@ -51,10 +51,6 @@ else
     exit 1
 fi
 
-# Optional: Configure MySQL root password and secure the installation
-log_message "Configuring MySQL root user and securing installation..."
-mysql_secure_installation >> "$LOG_FILE" 2>&1
-
 log_message "---- Fedora VM Setup Completed Successfully ----"
 
 # End of script

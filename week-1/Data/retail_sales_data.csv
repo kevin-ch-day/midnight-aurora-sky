@@ -1,0 +1,101 @@
+Order_ID,Product_Name,Quantity_Sold,Sale_Price,Total_Sales,Order_Date,Customer_Age,Customer_Gender,Payment_Method,Shipping_Cost,Order_Status,Product_Category
+O1,Product_20,5,77.73,388.65,2024-09-26,39,Female,PayPal,14.5,Shipped,Clothing
+O2,Product_1,8,23.75,190.0,2024-10-08,33,Other,Credit Card,16.31,Shipped,Clothing
+O3,Product_2,5,14.48,72.4,2024-09-14,33,Other,Bank Transfer,19.55,Processing,Electronics
+O4,Product_18,10,83.68,836.8,2024-09-20,37,Male,Bank Transfer,19.5,Cancelled,Clothing
+O5,Product_7,5,41.42,207.1,2024-09-22,28,Male,Bank Transfer,17.65,Shipped,Toys
+O6,Product_5,7,83.68,585.76,2024-10-01,47,Male,Credit Card,20.48,Cancelled,Electronics
+O7,Product_3,9,77.28,695.52,2024-10-03,47,Other,Bank Transfer,22.22,Processing,Toys
+O8,Product_19,3,70.97,212.91,2024-10-05,57,Other,Bank Transfer,21.14,Shipped,Clothing
+O9,Product_16,1,26.67,26.67,2024-09-27,21,Male,Bank Transfer,9.23,Processing,Toys
+O10,Product_20,3,87.77,263.31,2024-10-12,35,Other,Bank Transfer,19.58,Shipped,Toys
+O11,Product_9,8,90.29,722.32,2024-09-18,30,Female,Credit Card,19.14,Processing,Sports
+O12,Product_11,2,75.07,150.14,2024-10-10,64,Female,Credit Card,20.45,Shipped,Clothing
+O13,Product_12,3,30.18,90.54,2024-09-19,34,Other,Credit Card,9.91,Cancelled,Clothing
+O14,Product_15,10,88.85,888.5,2024-10-02,50,Female,Bank Transfer,6.21,Processing,Toys
+O15,Product_2,5,57.27,286.35,2024-09-25,19,Female,Credit Card,18.08,Processing,Home & Garden
+O16,Product_16,10,68.42,684.2,2024-09-19,46,Other,PayPal,22.91,Processing,Home & Garden
+O17,Product_14,7,25.55,178.85,2024-10-02,29,Male,PayPal,12.36,Processing,Toys
+O18,Product_17,5,51.42,257.1,2024-09-22,54,Male,Credit Card,15.79,Cancelled,Clothing
+O19,Product_14,10,91.19,911.9,2024-09-26,45,Other,PayPal,13.34,Shipped,Sports
+O20,Product_3,4,42.29,169.16,2024-10-08,46,Male,Credit Card,11.5,Shipped,Electronics
+O21,Product_5,5,31.24,156.2,2024-09-24,19,Female,Bank Transfer,8.74,Cancelled,Electronics
+O22,Product_17,3,97.13,291.39,2024-09-21,52,Other,PayPal,21.84,Shipped,Sports
+O23,Product_14,10,43.12,431.2,2024-09-14,44,Male,PayPal,18.3,Shipped,Clothing
+O24,Product_3,6,13.73,82.38,2024-09-17,37,Female,Credit Card,22.03,Processing,Sports
+O25,Product_4,4,94.38,377.52,2024-09-30,38,Other,Credit Card,17.05,Cancelled,Sports
+O26,Product_11,5,33.1,165.5,2024-09-30,33,Male,Credit Card,7.81,Shipped,Electronics
+O27,Product_6,10,13.68,136.8,2024-09-16,31,Other,Bank Transfer,15.04,Processing,Electronics
+O28,Product_2,2,33.51,67.02,2024-09-24,35,Female,Credit Card,12.37,Processing,Clothing
+O29,Product_5,9,95.67,861.03,2024-09-18,29,Other,Bank Transfer,6.26,Processing,Sports
+O30,Product_6,4,15.36,61.44,2024-10-14,41,Male,PayPal,15.44,Shipped,Home & Garden
+O31,Product_6,5,87.27,436.35,2024-09-19,21,Male,Bank Transfer,23.18,Cancelled,Sports
+O32,Product_2,8,59.84,478.72,2024-10-08,41,Female,Credit Card,8.03,Cancelled,Electronics
+O33,Product_17,3,58.56,175.68,2024-09-14,43,Female,Bank Transfer,22.27,Shipped,Home & Garden
+O34,Product_19,6,40.05,240.3,2024-09-28,35,Male,PayPal,20.0,Shipped,Clothing
+O35,Product_1,3,22.97,68.91,2024-10-10,55,Other,PayPal,11.09,Processing,Sports
+O36,Product_15,7,10.76,75.32,2024-10-09,58,Female,PayPal,13.12,Processing,Sports
+O37,Product_11,1,38.96,38.96,2024-10-09,62,Other,Bank Transfer,24.31,Shipped,Home & Garden
+O38,Product_2,3,19.94,59.82,2024-09-20,61,Other,PayPal,14.11,Processing,Toys
+O39,Product_11,8,37.62,300.96,2024-10-02,51,Other,Bank Transfer,24.68,Shipped,Electronics
+O40,Product_6,2,42.0,84.0,2024-10-06,60,Other,Bank Transfer,22.31,Processing,Sports
+O41,Product_3,7,28.37,198.59,2024-09-23,18,Male,PayPal,24.72,Cancelled,Electronics
+O42,Product_6,1,10.61,10.61,2024-10-03,31,Other,Credit Card,24.95,Shipped,Toys
+O43,Product_11,7,50.11,350.77,2024-09-30,31,Female,Bank Transfer,22.7,Processing,Clothing
+O44,Product_5,10,52.53,525.3,2024-10-12,51,Female,Bank Transfer,23.54,Cancelled,Home & Garden
+O45,Product_6,6,89.89,539.34,2024-10-01,52,Other,Credit Card,17.93,Shipped,Toys
+O46,Product_7,5,42.19,210.95,2024-09-15,38,Male,Bank Transfer,19.45,Shipped,Electronics
+O47,Product_8,7,15.6,109.2,2024-09-24,39,Other,PayPal,24.99,Shipped,Toys
+O48,Product_20,10,11.84,118.4,2024-10-03,22,Other,Credit Card,18.19,Cancelled,Sports
+O49,Product_20,7,68.4,478.8,2024-09-21,44,Other,Bank Transfer,9.93,Processing,Electronics
+O50,Product_8,4,55.84,223.36,2024-10-07,51,Female,Credit Card,13.18,Cancelled,Sports
+O51,Product_1,7,29.15,204.05,2024-09-16,31,Other,Credit Card,18.03,Processing,Clothing
+O52,Product_15,9,61.12,550.08,2024-09-27,35,Female,PayPal,17.52,Cancelled,Toys
+O53,Product_4,6,46.97,281.82,2024-10-01,44,Male,PayPal,14.14,Cancelled,Electronics
+O54,Product_5,1,58.14,58.14,2024-09-25,64,Female,PayPal,22.32,Shipped,Home & Garden
+O55,Product_12,8,20.41,163.28,2024-09-16,61,Male,Credit Card,16.68,Processing,Clothing
+O56,Product_14,6,42.1,252.6,2024-09-26,46,Female,Credit Card,11.44,Shipped,Home & Garden
+O57,Product_18,1,16.06,16.06,2024-10-03,33,Other,Credit Card,15.07,Processing,Home & Garden
+O58,Product_4,5,41.57,207.85,2024-10-08,21,Female,Bank Transfer,10.81,Shipped,Clothing
+O59,Product_13,9,75.03,675.27,2024-10-06,19,Other,Bank Transfer,19.73,Processing,Clothing
+O60,Product_15,6,84.17,505.02,2024-09-21,29,Other,Credit Card,19.26,Shipped,Home & Garden
+O61,Product_19,6,12.55,75.3,2024-09-21,61,Male,Credit Card,24.83,Shipped,Clothing
+O62,Product_14,10,45.04,450.4,2024-10-12,38,Other,Credit Card,14.78,Processing,Home & Garden
+O63,Product_17,1,39.92,39.92,2024-09-16,34,Male,Bank Transfer,6.39,Cancelled,Clothing
+O64,Product_4,9,45.56,410.04,2024-09-23,29,Other,Bank Transfer,21.73,Processing,Home & Garden
+O65,Product_15,9,79.65,716.85,2024-10-07,34,Male,Bank Transfer,10.43,Cancelled,Sports
+O66,Product_3,7,31.11,217.77,2024-09-16,28,Female,Credit Card,16.89,Processing,Clothing
+O67,Product_5,5,71.46,357.3,2024-09-27,26,Male,Credit Card,13.37,Cancelled,Sports
+O68,Product_17,6,31.88,191.28,2024-09-29,63,Other,Bank Transfer,7.88,Shipped,Electronics
+O69,Product_10,2,30.24,60.48,2024-09-23,34,Male,Bank Transfer,17.84,Processing,Sports
+O70,Product_8,10,73.01,730.1,2024-10-03,42,Female,PayPal,5.49,Cancelled,Home & Garden
+O71,Product_14,4,67.28,269.12,2024-10-14,32,Female,Credit Card,7.99,Shipped,Toys
+O72,Product_9,8,51.61,412.88,2024-09-15,20,Male,Bank Transfer,14.42,Shipped,Electronics
+O73,Product_9,3,93.93,281.79,2024-10-14,25,Female,PayPal,8.81,Shipped,Electronics
+O74,Product_8,2,81.77,163.54,2024-09-17,26,Male,PayPal,11.99,Shipped,Clothing
+O75,Product_12,8,36.8,294.4,2024-09-30,65,Other,Credit Card,10.76,Processing,Sports
+O76,Product_5,2,58.76,117.52,2024-10-10,59,Male,Bank Transfer,8.53,Cancelled,Electronics
+O77,Product_4,6,41.85,251.1,2024-09-18,61,Other,PayPal,16.3,Cancelled,Clothing
+O78,Product_1,4,58.94,235.76,2024-10-10,37,Male,PayPal,18.97,Processing,Toys
+O79,Product_17,7,49.38,345.66,2024-09-27,32,Male,PayPal,24.58,Shipped,Home & Garden
+O80,Product_12,9,32.9,296.1,2024-10-07,26,Female,Bank Transfer,11.18,Cancelled,Clothing
+O81,Product_4,6,52.01,312.06,2024-09-19,52,Female,PayPal,18.79,Shipped,Electronics
+O82,Product_1,2,72.3,144.6,2024-09-23,57,Male,Credit Card,15.14,Shipped,Home & Garden
+O83,Product_8,6,58.69,352.14,2024-09-22,47,Male,PayPal,20.67,Processing,Sports
+O84,Product_5,2,90.94,181.88,2024-09-19,32,Other,Credit Card,15.5,Shipped,Toys
+O85,Product_19,10,20.31,203.1,2024-10-03,41,Other,PayPal,11.33,Shipped,Toys
+O86,Product_8,2,91.51,183.02,2024-09-23,37,Other,PayPal,16.97,Processing,Toys
+O87,Product_20,6,17.39,104.34,2024-09-25,27,Other,Bank Transfer,13.38,Cancelled,Clothing
+O88,Product_4,3,16.37,49.11,2024-09-22,55,Other,Credit Card,22.16,Shipped,Home & Garden
+O89,Product_17,6,51.08,306.48,2024-10-12,53,Other,Bank Transfer,15.78,Processing,Home & Garden
+O90,Product_11,4,82.4,329.6,2024-09-24,35,Female,Bank Transfer,18.61,Shipped,Home & Garden
+O91,Product_20,6,56.13,336.78,2024-09-30,33,Other,Credit Card,13.57,Shipped,Electronics
+O92,Product_15,7,45.37,317.59,2024-10-06,57,Female,Credit Card,16.07,Shipped,Home & Garden
+O93,Product_10,1,84.74,84.74,2024-09-24,34,Male,PayPal,17.63,Shipped,Home & Garden
+O94,Product_13,6,65.29,391.74,2024-09-21,52,Male,Bank Transfer,7.93,Shipped,Home & Garden
+O95,Product_20,4,62.03,248.12,2024-09-20,56,Other,Bank Transfer,24.91,Processing,Sports
+O96,Product_9,9,83.44,750.96,2024-10-08,57,Other,PayPal,9.87,Shipped,Toys
+O97,Product_4,10,91.78,917.8,2024-10-13,21,Female,Credit Card,24.25,Processing,Home & Garden
+O98,Product_12,6,34.43,206.58,2024-09-23,22,Other,Credit Card,8.92,Shipped,Home & Garden
+O99,Product_6,2,96.84,193.68,2024-10-07,62,Other,PayPal,16.5,Cancelled,Sports
+O100,Product_1,4,29.41,117.64,2024-09-23,62,Male,Credit Card,19.17,Processing,Home & Garden
