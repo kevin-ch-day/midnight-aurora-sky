@@ -4,12 +4,19 @@ import subprocess
 # Author: [Your Name]
 # Purpose: To check the status of the current Git repository, including the current branch,
 #          any uncommitted changes, whether the branch can be merged with the main branch,
-#          and provide feedback for improvement.
+#          provide feedback for improvement, and merge all branches into the current branch.
 
 def run_command(command):
     """Run a shell command and return its output and exit code."""
     result = subprocess.run(command, shell=True, text=True, capture_output=True)
     return result.stdout.strip(), result.returncode
+
+def list_branches():
+    """List all branches in the Git repository."""
+    print("\n--- Available Branches ---")
+    branches, _ = run_command("git branch --all")
+    print(branches)
+    print("---------------------------")
 
 def check_git_status():
     """Check the current status of the Git repository and provide feedback."""
@@ -87,12 +94,35 @@ def provide_feedback(commits_ahead, commits_behind):
     else:
         print("Your branch is in sync with the main branch. Good job!")
 
+def merge_all_branches():
+    """Merge all branches into the current branch."""
+    current_branch, _ = run_command("git branch --show-current")
+    print(f"\nMerging all branches into '{current_branch}'...")
+
+    branches, _ = run_command("git branch --format='%(refname:short)'")
+    branch_list = branches.splitlines()
+
+    for branch in branch_list:
+        if branch.strip() != current_branch:
+            print(f"Merging branch: {branch}")
+            # Checkout to the current branch before merging
+            run_command(f"git checkout {current_branch}")
+            # Merge the branch
+            merge_result, merge_returncode = run_command(f"git merge {branch}")
+
+            if merge_returncode != 0:
+                print(f"ERROR: Could not merge branch '{branch}'. Resolve conflicts manually.")
+                continue
+            print(f"Successfully merged branch: {branch}")
+
 def display_menu():
     """Display the main menu options to the user."""
     while True:
         print("\n--- Git Repository Status Checker Menu ---")
         print("1. Check Git Status")
         print("2. Check Merge Status")
+        print("3. List Available Branches")
+        print("4. Merge All Branches")
         print("0. Exit")
         
         choice = input("Select an option: ")
@@ -100,8 +130,13 @@ def display_menu():
         if choice == '1':
             check_git_status()
         elif choice == '2':
+            list_branches()
             branch_name = input("Enter the branch name to check merge status: ")
             check_merge_status(branch_name)
+        elif choice == '3':
+            list_branches()
+        elif choice == '4':
+            merge_all_branches()
         elif choice == '0':
             print("Exiting the program.")
             break
